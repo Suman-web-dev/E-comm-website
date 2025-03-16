@@ -58,7 +58,7 @@ function App() {
       ) : (
         <AuthProvider>
           <CartProvider>
-            <Router>
+          <Router basename="/E-commerce-website">
               <Navbar />
               
               <Routes>
